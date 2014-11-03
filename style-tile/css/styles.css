@@ -29,3 +29,18 @@ section {
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }
+
+.color-1 {
+
+	background-color: rgb(233, 0, 22);
+}
+
+.color-2 {
+
+	background-color: #828282;
+}
+
+.color-3 {
+
+	background-color: rgb(252, 163, 40);
+}
