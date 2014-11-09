@@ -22,10 +22,6 @@ html {
 	color: white;
 }
 
-
-
-
-
 .green_plate td {
 	background-color: lightgreen;
 }
@@ -35,17 +31,39 @@ html {
 }
 
 
+
+
+
+.ui.accordion .accordion .title, .ui.accordion .title {
+cursor: pointer;
+margin: 0;
+padding: 1.75em 1em;
+color: rgba(0,0,0,.6);
+border-top: 1px solid rgba(0,0,0,.05);
+-webkit-transition: background-color .1s ease-out;
+-moz-transition: background-color .1s ease-out;
+transition: background-color .1s ease-out;
+}
+
+.title:hover {
+	background-color: rgb(205, 32, 53);
+
+}
+
+
+
+
+
+
 /* Mobile */
 @media screen and (min-width: 320px) {
 	body {
-  }
 
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
   body {
-  }
   
 }
 
@@ -53,6 +71,6 @@ html {
 @media screen and (min-width: 1140px) {
 
     body {
-    }
+
 
 }
