@@ -13,13 +13,39 @@ html {
 	margin-top: 20px;
 }
 
-.yellow_plate td {
-	background-color: rgb(249, 162, 41);
+
+td {
+		text-align: left;
+	}
+
+tr td:nth-child(2) {
+	color: grey;
 }
+
+tr td:nth-child(3) {
+	color: grey;
+}
+
+.ui.table td {
+padding: 2.4em .7em;
+vertical-align: middle;
+}
+
+.ui.icon.menu>.item {
+height: auto;
+text-align: left;
+color: white;
+}
+
+.yellow_plate td {
+	background-color: yellow;
+
+}
+
 
 .red_plate td {
 	background-color: rgb(205, 32, 53);
-	color: white;
+
 }
 
 .green_plate td {
@@ -33,21 +59,24 @@ html {
 
 
 
+table td:nth-child(2) {
+    background-color: white;
+}
+table td:nth-child(3) {
+    background-color: white;
+}
+
+
 
 .ui.accordion .accordion .title, .ui.accordion .title {
 cursor: pointer;
 margin: 0;
 padding: 1.75em 1em;
-color: rgba(0,0,0,.6);
+color: teal;
 border-top: 1px solid rgba(0,0,0,.05);
 -webkit-transition: background-color .1s ease-out;
 -moz-transition: background-color .1s ease-out;
 transition: background-color .1s ease-out;
-}
-
-.title:hover {
-	background-color: rgb(205, 32, 53);
-
 }
 
 
