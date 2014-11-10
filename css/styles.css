@@ -138,22 +138,29 @@ transition: background-color .1s ease-out;
 
 
 /* Mobile */
+@media screen and (min-width: 0px) {
+.ui.one.column.page.grid {
+
+	margin: 25px 50px;
+	padding: 0 0%;
+}
+
 @media screen and (min-width: 320px) {
 .ui.one.column.page.grid {
 
 	margin: 25px 50px;
-	padding: 0 5%;
+	padding: 0 10%;
 }
 
 }
 
 /* Tablet */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
 
 .ui.one.column.page.grid {
 
 	margin: 25px 50px;
-	padding: 0 10%;
+	padding: 0 20%;
 }
 
 
@@ -163,7 +170,7 @@ transition: background-color .1s ease-out;
 .ui.one.column.page.grid {
 
 	margin: 25px 50px;
-	padding: 0 20%;
+	padding: 0 30%;
 }
 
 
