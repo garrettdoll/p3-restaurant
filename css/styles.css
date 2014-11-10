@@ -1,3 +1,6 @@
+/*  */
+
+
 html {
     background: url(../img/bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -8,10 +11,38 @@ html {
 
 }
 
-.accordion {
+.ui.one.column.page.grid {
 
-	margin-top: 20px;
+	margin: 25px 50px;
+	padding: 0 50px;
 }
+
+
+
+/* This below is ensuring that all the menu items are white */
+
+tbody tr td:nth-child(1) {
+	color: white;
+}
+
+
+
+
+
+.ui.table td {
+padding: 1.7em 3em;
+border-top: white 2px solid;
+vertical-align: middle;
+}
+
+
+
+
+.ui.yellow.header{
+	color: rgb(249, 162, 41);
+}
+
+/* advance select for grey text*/
 
 
 td {
@@ -26,22 +57,14 @@ tr td:nth-child(3) {
 	color: grey;
 }
 
-.ui.table td {
-padding: 2.4em .7em;
-vertical-align: middle;
-}
 
-.ui.icon.menu>.item {
-height: auto;
-text-align: left;
-color: white;
-}
+/* This below is ensuring that the row's color matches the price*/
+
 
 .yellow_plate td {
-	background-color: yellow;
+	background-color: rgb(249, 162, 41);
 
 }
-
 
 .red_plate td {
 	background-color: rgb(205, 32, 53);
@@ -59,6 +82,9 @@ color: white;
 
 
 
+
+/* This below is ensuring that the "description" and "note" categories have a white background*/
+
 table td:nth-child(2) {
     background-color: white;
 }
@@ -72,7 +98,21 @@ table td:nth-child(3) {
 cursor: pointer;
 margin: 0;
 padding: 1.75em 1em;
-color: teal;
+background-color: white;
+color: rgb(194, 68, 69);
+;
+border-top: 1px solid rgba(0,0,0,.05);
+-webkit-transition: background-color .1s ease-out;
+-moz-transition: background-color .1s ease-out;
+transition: background-color .1s ease-out;
+}
+
+.ui.accordion .accordion .title, .ui.accordion .title:hover {
+cursor: pointer;
+margin: 0;
+padding: 1.75em 1em;
+background-color: rgb(194, 68, 69);
+color: white;
 border-top: 1px solid rgba(0,0,0,.05);
 -webkit-transition: background-color .1s ease-out;
 -moz-transition: background-color .1s ease-out;
@@ -80,26 +120,31 @@ transition: background-color .1s ease-out;
 }
 
 
+.accordion.sub {
+
+	background-color: white;
+	color: rgb(194, 68, 69);
+}
+
 
 
 
 
 /* Mobile */
 @media screen and (min-width: 320px) {
-	body {
+
 
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-  body {
-  
-}
+
+
+
+
 
 /* Desktop */
 @media screen and (min-width: 1140px) {
-
-    body {
 
 
 }
