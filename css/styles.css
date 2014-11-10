@@ -14,7 +14,7 @@ html {
 .ui.one.column.page.grid {
 
 	margin: 25px 50px;
-	padding: 0 50px;
+	padding: 0 120px;
 }
 
 
@@ -23,6 +23,9 @@ html {
 
 tbody tr td:nth-child(1) {
 	color: white;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 150%;
 }
 
 
@@ -51,6 +54,10 @@ td {
 
 tr td:nth-child(2) {
 	color: grey;
+	font-size: .8em;
+	letter-spacing: 3px;
+	line-height: 150%;
+	text-align: center;
 }
 
 tr td:nth-child(3) {
@@ -132,19 +139,37 @@ transition: background-color .1s ease-out;
 
 /* Mobile */
 @media screen and (min-width: 320px) {
+.ui.one.column.page.grid {
 
+	margin: 25px 50px;
+	padding: 0 5%;
+}
 
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
 
+.ui.one.column.page.grid {
 
+	margin: 25px 50px;
+	padding: 0 10%;
+}
 
 
 
 /* Desktop */
 @media screen and (min-width: 1140px) {
+.ui.one.column.page.grid {
+
+	margin: 25px 50px;
+	padding: 0 20%;
+}
 
 
 }
+
+
+
+
+
